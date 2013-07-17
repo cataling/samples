@@ -1,0 +1,22 @@
+article {
+	font-size: 2em;
+
+	-webkit-flow-into: article_flow;
+}
+
+img {
+	-webkit-flow-into: image_flow;
+}
+
+#region1 {
+	max-height: 50vh;
+	-webkit-flow-from: article_flow;
+}
+
+#region2 {	
+	-webkit-flow-from: image_flow;
+}
+
+#region3 {
+	-webkit-flow-from: article_flow;	
+}
