@@ -7,10 +7,7 @@ img {
 }
 
 #region1 {
-	/* should normally use max-height, but there seems to be a bug with portrait/landscape rotation */
-	/* max-height: 50vh; */
-	
-	height: 50vh;
+	max-height: 50vh;
 	-webkit-flow-from: article_flow;
 }
 
